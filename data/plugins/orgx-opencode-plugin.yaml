@@ -11,11 +11,3 @@ tags:
   - receipts
   - mcp
 homepage: https://github.com/useorgx/orgx-opencode-plugin#readme
-installation: |
-  ```bash
-  npm install -g @useorgx/orgx-opencode-plugin
-
-  export ORGX_API_KEY=oxk_...
-  export ORGX_WORKSPACE_ID=<uuid>
-  orgx-opencode-plugin
-  ```
