@@ -391,6 +391,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-agents-sidebar",
+    "type": "plugins",
+    "displayName": "Opencode Agents Sidebar",
+    "repoUrl": "https://github.com/Mark1708/opencode-agents-sidebar",
+    "tagline": "Browse configured OhMyOpenAgent agents in the TUI",
+    "description": "OpenCode sidebar plugin that displays configured OhMyOpenAgent agents with lifecycle-based categories, collapsible sections, descriptions, and model information.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-canvas",
     "type": "plugins",
     "displayName": "Opencode Canvas",
@@ -577,6 +589,18 @@
     "repoUrl": "https://github.com/iHildy/opencode-synced",
     "tagline": "Sync configs across machines",
     "description": "Enables syncing global opencode configurations across machines with public/private visibility options.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-visualizer",
+    "type": "plugins",
+    "displayName": "Opencode Visualizer",
+    "repoUrl": "https://github.com/psinetron/opencode-visualiser",
+    "tagline": "2D pixel-art office for AI agents",
+    "description": "Turning raw OpenCode terminal logs into cozy 2D pixel office chaos. Watch your agents work, idle, and celebrate success in a bustling virtual office.",
     "scope": [
       "global"
     ],
@@ -797,6 +821,19 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "typeui",
+    "type": "plugins",
+    "displayName": "TypeUI",
+    "repoUrl": "https://github.com/bergside/typeui",
+    "tagline": "Design systems, UI prompts, and layout variation guidance",
+    "description": "Open-source design layer for OpenCode that provides curated design skills, UI prompts, and layout variation guidance so agents can generate more consistent interfaces. Includes an <a href=\"https://www.typeui.sh/docs/guides/opencode\">OpenCode setup guide</a>.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://www.typeui.sh/docs/guides/opencode"
   },
   {
     "productId": "unmoji",
@@ -1360,6 +1397,18 @@
     "repoUrl": "https://github.com/brunogabriel/opencode-moonlight-theme",
     "tagline": "A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme.",
     "description": "A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme by atomiks. Features a dark, cool-toned palette inspired by moonlight aesthetics.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-light-themes",
+    "type": "themes",
+    "displayName": "OpenCode Light Themes",
+    "repoUrl": "https://github.com/fatihtoprakk/opencode-light-themes",
+    "tagline": "A curated collection of 21 light color themes for OpenCode",
+    "description": "The largest collection of light themes for OpenCode. Includes 21 carefully crafted light themes converted from popular VS Code themes — scaefy-light (Atom One Light), Solarized Light, Vivid Light, Coffee Cream, GitHub Light, Quiet Light, Bluloco Light, Brackets Light Pro, NetBeans Light, Ysgrifennwr, Hop Light, GitHub Plus, Classic Light, HC Flurry, all Milkshake variants, and more. Bilingual (EN/TR) documentation and one-command install script included.",
     "scope": [
       "global"
     ],

@@ -314,6 +314,15 @@
 </details>
 
 <details>
+  <summary><b>Opencode Agents Sidebar</b> <img src="https://badgen.net/github/stars/Mark1708/opencode-agents-sidebar" height="14"/> - <i>Browse configured OhMyOpenAgent agents in the TUI</i></summary>
+  <blockquote>
+    OpenCode sidebar plugin that displays configured OhMyOpenAgent agents with lifecycle-based categories, collapsible sections, descriptions, and model information.
+    <br><br>
+    <a href="https://github.com/Mark1708/opencode-agents-sidebar">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Canvas</b> <img src="https://badgen.net/github/stars/mailshieldai/opencode-canvas" height="14"/> - <i>Interactive terminal canvases in tmux splits</i></summary>
   <blockquote>
     Interactive terminal canvases (calendars, documents, flight booking) in tmux splits. Port of claude-canvas for OpenCode.
@@ -409,6 +418,15 @@
     Enables syncing global opencode configurations across machines with public/private visibility options.
     <br><br>
     <a href="https://github.com/iHildy/opencode-synced">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Visualizer</b> <img src="https://badgen.net/github/stars/psinetron/opencode-visualiser" height="14"/> - <i>2D pixel-art office for AI agents</i></summary>
+  <blockquote>
+    Turning raw OpenCode terminal logs into cozy 2D pixel office chaos. Watch your agents work, idle, and celebrate success in a bustling virtual office.
+    <br><br>
+    <a href="https://github.com/psinetron/opencode-visualiser">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -611,6 +629,15 @@
 </details>
 
 <details>
+  <summary><b>TypeUI</b> <img src="https://badgen.net/github/stars/bergside/typeui" height="14"/> - <i>Design systems, UI prompts, and layout variation guidance</i></summary>
+  <blockquote>
+    Open-source design layer for OpenCode that provides curated design skills, UI prompts, and layout variation guidance so agents can generate more consistent interfaces. Includes an <a href="https://www.typeui.sh/docs/guides/opencode">OpenCode setup guide</a>.
+    <br><br>
+    <a href="https://github.com/bergside/typeui">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>UNMOJI</b> - <i>Strip emojis from output</i></summary>
   <blockquote>
     A simple plugin that strips ALL emojis from agent outputs in Opencode.
@@ -723,6 +750,15 @@ Also available for bat and Ghostty in the same repository.
     A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme by atomiks. Features a dark, cool-toned palette inspired by moonlight aesthetics.
     <br><br>
     <a href="https://github.com/brunogabriel/opencode-moonlight-theme">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Light Themes</b> <img src="https://badgen.net/github/stars/fatihtoprakk/opencode-light-themes" height="14"/> - <i>A curated collection of 21 light color themes for OpenCode</i></summary>
+  <blockquote>
+    The largest collection of light themes for OpenCode. Includes 21 carefully crafted light themes converted from popular VS Code themes — scaefy-light (Atom One Light), Solarized Light, Vivid Light, Coffee Cream, GitHub Light, Quiet Light, Bluloco Light, Brackets Light Pro, NetBeans Light, Ysgrifennwr, Hop Light, GitHub Plus, Classic Light, HC Flurry, all Milkshake variants, and more. Bilingual (EN/TR) documentation and one-command install script included.
+    <br><br>
+    <a href="https://github.com/fatihtoprakk/opencode-light-themes">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
