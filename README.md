@@ -269,6 +269,15 @@
 </details>
 
 <details>
+  <summary><b>Magic Context</b> <img src="https://badgen.net/github/stars/cortexkit/opencode-magic-context" height="14"/> - <i>Lossless context management with background compression</i></summary>
+  <blockquote>
+    Cache-aware context management that keeps long sessions productive. Background historian compresses old conversation into structured compartments while you keep working. Includes cross-session project memory, unified search across history/memories/facts, overnight dreamer for memory maintenance, and prompt-cache-safe deferred operations.
+    <br><br>
+    <a href="https://github.com/cortexkit/opencode-magic-context">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Manage Skills</b> <img src="https://badgen.net/github/stars/Randroids-Dojo/ManageSkills" height="14"/> - <i>Wizard-driven skills management for OpenCode.</i></summary>
   <blockquote>
     Modal-based skill install, remove, list, and update workflow that avoids ANSI prompts while wrapping the skills CLI inside OpenCode.
@@ -337,6 +346,15 @@
     Connect and automatically fetch models from your Omniroute instance
     <br><br>
     <a href="https://github.com/Alph4d0g/opencode-omniroute-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Open Conclave</b> <img src="https://badgen.net/github/stars/martinzokov/open-conclave" height="14"/> - <i>Multi-agent debates, moderated by a captain agent until they reach consensus</i></summary>
+  <blockquote>
+    In the style of Grok 4.20, multiple agents are dispatched to answer the same query. Each one has a different system prompt (logical, creative, research-focused) and have to reach a consensus for the final output. The user can specify which provider/model they want to use and override the system prompt of each agent via config.
+    <br><br>
+    <a href="https://github.com/martinzokov/open-conclave">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1083,6 +1101,15 @@ Also available for bat and Ghostty in the same repository.
     A terminal UI for managing multiple OpenCode sessions in tmux with git worktree integration and Docker sandboxing.
     <br><br>
     <a href="https://github.com/njbrake/agent-of-empires">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>agent-dotfiles</b> <img src="https://badgen.net/github/stars/saqibameen/agent-dotfiles" height="14"/> - <i>Write AI coding rules once, sync to every agent</i></summary>
+  <blockquote>
+    Write AI coding rules once, sync to every agent. Supports Command Code, Claude Code, Cursor, Copilot, Codex, and OpenCode.
+    <br><br>
+    <a href="https://github.com/saqibameen/agent-dotfiles">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

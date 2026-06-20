@@ -312,6 +312,18 @@
     "tags": []
   },
   {
+    "productId": "magic-context",
+    "type": "plugins",
+    "displayName": "Magic Context",
+    "repoUrl": "https://github.com/cortexkit/opencode-magic-context",
+    "tagline": "Lossless context management with background compression",
+    "description": "Cache-aware context management that keeps long sessions productive. Background historian compresses old conversation into structured compartments while you keep working. Includes cross-session project memory, unified search across history/memories/facts, overnight dreamer for memory maintenance, and prompt-cache-safe deferred operations.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "managed-skills",
     "type": "plugins",
     "displayName": "Manage Skills",
@@ -409,6 +421,18 @@
     "repoUrl": "https://github.com/Alph4d0g/opencode-omniroute-auth",
     "tagline": "Omniroute authentication provider",
     "description": "Connect and automatically fetch models from your Omniroute instance",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "open-conclave",
+    "type": "plugins",
+    "displayName": "Open Conclave",
+    "repoUrl": "https://github.com/martinzokov/open-conclave",
+    "tagline": "Multi-agent debates, moderated by a captain agent until they reach consensus",
+    "description": "In the style of Grok 4.20, multiple agents are dispatched to answer the same query. Each one has a different system prompt (logical, creative, research-focused) and have to reach a consensus for the final output. The user can specify which provider/model they want to use and override the system prompt of each agent via config.",
     "scope": [
       "global"
     ],
@@ -1233,6 +1257,18 @@
     "repoUrl": "https://github.com/24601/opencode-zellij-namer",
     "tagline": "Auto-rename Zellij sessions",
     "description": "Keeps your Zellij session name in sync with your work.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "agent-dotfiles",
+    "type": "projects",
+    "displayName": "agent-dotfiles",
+    "repoUrl": "https://github.com/saqibameen/agent-dotfiles",
+    "tagline": "Write AI coding rules once, sync to every agent",
+    "description": "Write AI coding rules once, sync to every agent. Supports Command Code, Claude Code, Cursor, Copilot, Codex, and OpenCode.",
     "scope": [
       "global"
     ],
