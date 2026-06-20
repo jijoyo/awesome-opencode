@@ -650,6 +650,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-simple-notify",
+    "type": "plugins",
+    "displayName": "Simple Notify",
+    "repoUrl": "https://github.com/Yusuzhan/opencode-simple-notify",
+    "tagline": "Native desktop notifications with near-zero dependencies",
+    "description": "Lightweight desktop notification plugin for OpenCode. Sends native OS notifications via dbus (Linux) and osascript (macOS) when sessions complete, error, need approval, or wait for input. Shows project name, elapsed time, and message preview.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-snip",
     "type": "plugins",
     "displayName": "opencode-snip",
@@ -704,6 +716,18 @@
     "repoUrl": "https://github.com/eserete/opencode-token-tracker",
     "tagline": "Real-time token usage, cost, and latency tracking for every AI request in OpenCode",
     "description": "Displays a toast after each AI response with input/output tokens, cache hits, reasoning tokens, response latency, per-message cost, cumulative session cost, model identifier, and request count. Automatically aggregates tokens from subagent sessions spawned via the Task tool. Zero config — drop the file in and it works.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-update-notifier",
+    "type": "plugins",
+    "displayName": "Opencode update notifier",
+    "repoUrl": "https://github.com/tim-hilde/opencode-update-notifier",
+    "tagline": "Notify about plugin updates.",
+    "description": "Checks if your pinned plugins have newer versions available and shows a notification.",
     "scope": [
       "global"
     ],
@@ -1053,6 +1077,18 @@
     "repoUrl": "https://github.com/njbrake/agent-of-empires",
     "tagline": "Multi-session TUI for OpenCode",
     "description": "A terminal UI for managing multiple OpenCode sessions in tmux with git worktree integration and Docker sandboxing.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "agenttrace",
+    "type": "projects",
+    "displayName": "agenttrace",
+    "repoUrl": "https://github.com/luoyuctl/agenttrace",
+    "tagline": "Local TUI for OpenCode session cost, health, and trace reports",
+    "description": "Local-first Bubble Tea TUI and report CLI for inspecting OpenCode and other AI coding-agent logs with cost, tokens, latency, tool failures, anomalies, health gates, diffs, and reports.",
     "scope": [
       "global"
     ],
@@ -1492,6 +1528,24 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "akephalos",
+    "type": "resources",
+    "displayName": "Akephalos",
+    "repoUrl": "https://github.com/sunnja69/akephalos",
+    "tagline": "Local-first markdown passport for portable agent context and memory",
+    "description": "A local-first, markdown-first `.akephalos` passport for portable agent preferences, tool notes, rules, project context, and durable memories. It uses plain files and Git so MCP-capable coding-agent workflows can inspect and carry context across tools and machines without hosted sync.",
+    "scope": [
+      "project"
+    ],
+    "tags": [
+      "mcp-server",
+      "memory",
+      "context",
+      "local-first",
+      "markdown"
+    ]
   },
   {
     "productId": "debug-log-to-text-file",

@@ -476,6 +476,15 @@
 </details>
 
 <details>
+  <summary><b>Opencode update notifier</b> <img src="https://badgen.net/github/stars/tim-hilde/opencode-update-notifier" height="14"/> - <i>Notify about plugin updates.</i></summary>
+  <blockquote>
+    Checks if your pinned plugins have newer versions available and shows a notification.
+    <br><br>
+    <a href="https://github.com/tim-hilde/opencode-update-notifier">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Visualizer</b> <img src="https://badgen.net/github/stars/psinetron/opencode-visualiser" height="14"/> - <i>2D pixel-art office for AI agents</i></summary>
   <blockquote>
     Turning raw OpenCode terminal logs into cozy 2D pixel office chaos. Watch your agents work, idle, and celebrate success in a bustling virtual office.
@@ -652,6 +661,15 @@
     Simple plugin to manage memory inside a git repo that can be committed and reviewed by team members.
     <br><br>
     <a href="https://github.com/cnicolov/opencode-plugin-simple-memory">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Simple Notify</b> <img src="https://badgen.net/github/stars/Yusuzhan/opencode-simple-notify" height="14"/> - <i>Native desktop notifications with near-zero dependencies</i></summary>
+  <blockquote>
+    Lightweight desktop notification plugin for OpenCode. Sends native OS notifications via dbus (Linux) and osascript (macOS) when sessions complete, error, need approval, or wait for input. Shows project name, elapsed time, and message preview.
+    <br><br>
+    <a href="https://github.com/Yusuzhan/opencode-simple-notify">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -936,6 +954,15 @@ Also available for bat and Ghostty in the same repository.
     A terminal UI for managing multiple OpenCode sessions in tmux with git worktree integration and Docker sandboxing.
     <br><br>
     <a href="https://github.com/njbrake/agent-of-empires">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>agenttrace</b> <img src="https://badgen.net/github/stars/luoyuctl/agenttrace" height="14"/> - <i>Local TUI for OpenCode session cost, health, and trace reports</i></summary>
+  <blockquote>
+    Local-first Bubble Tea TUI and report CLI for inspecting OpenCode and other AI coding-agent logs with cost, tokens, latency, tool failures, anomalies, health gates, diffs, and reports.
+    <br><br>
+    <a href="https://github.com/luoyuctl/agenttrace">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
