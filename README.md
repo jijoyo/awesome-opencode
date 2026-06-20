@@ -530,6 +530,15 @@
 </details>
 
 <details>
+  <summary><b>opencode-personality</b> <img src="https://badgen.net/github/stars/joostvanwollingen/opencode-personality" height="14"/> - <i>A configurable personality and mood system plugin for OpenCode.</i></summary>
+  <blockquote>
+    Give your AI assistant a distinct personality with customizable moods that drift over time.
+    <br><br>
+    <a href="https://github.com/joostvanwollingen/opencode-personality">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-plugin-otel</b> <img src="https://badgen.net/github/stars/DEVtheOPS/opencode-plugin-otel" height="14"/> - <i>OpenTelemetry telemetry exporter for opencode sessions, mirroring Claude Code monitoring signals</i></summary>
   <blockquote>
     Exports metrics, logs, and traces from opencode sessions via OTLP/gRPC to any OpenTelemetry-compatible backend (Datadog, Honeycomb, Grafana Cloud, etc.). Instruments session lifecycle, token usage, cost, tool durations, and git commits — mirroring the same signals as Claude Code's monitoring.
@@ -715,6 +724,15 @@
     Swarm plugin for opencode enabling swarm-based agent coordination.
     <br><br>
     <a href="https://github.com/joelhooks/opencode-swarm-plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Token Monitor</b> <img src="https://badgen.net/github/stars/Ainsley0917/opencode-token-monitor" height="14"/> - <i>Token analysis & cost tracking with budgets, trends, and per-project analytics</i></summary>
+  <blockquote>
+    Track token usage (input/output/reasoning/cache), estimate costs, view daily trends with ASCII charts, set budget alerts, and export data. Supports per-agent breakdown, agent×model cross-analysis, and project-scoped analytics.
+    <br><br>
+    <a href="https://github.com/Ainsley0917/opencode-token-monitor">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1129,9 +1147,9 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
-  <summary><b>Open Dispatch</b> <img src="https://badgen.net/github/stars/bobum/open-dispatch" height="14"/> - <i>Control OpenCode from Slack or Microsoft Teams</i></summary>
+  <summary><b>Open Dispatch</b> <img src="https://badgen.net/github/stars/bobum/open-dispatch" height="14"/> - <i>Control agents from Slack, Teams, or Discord — locally or via Fly.io Sprites</i></summary>
   <blockquote>
-    Bridge app connecting chat platforms (Slack/Teams) to AI coding assistants. Start sessions on desktop, guide them from your phone. Supports 75+ AI providers via OpenCode integration with session persistence and smart message routing.
+    Bridge app connecting chat platforms (Slack/Teams/Discord) to AI coding assistants. Run agents locally or spin up isolated Fly.io Sprites for parallel execution. Supports 75+ AI providers via OpenCode, Claude CLI, real-time output streaming, session persistence, and smart message routing.
     <br><br>
     <a href="https://github.com/bobum/open-dispatch">🔗 <b>View Repository</b></a>
   </blockquote>
