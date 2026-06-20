@@ -647,6 +647,15 @@
 </details>
 
 <details>
+  <summary><b>Research Papers</b> <img src="https://badgen.net/github/stars/saim-x/opencode-research-papers" height="14"/> - <i>Search arXiv and OpenAlex for research papers with recency and citation filtering</i></summary>
+  <blockquote>
+    OpenCode plugin that adds a research_papers tool for searching scholarly literature. Uses arXiv for fresh preprints and OpenAlex for broader metadata, citation counts, and open-access links. Supports filtering by latest, trending, or top-cited papers.
+    <br><br>
+    <a href="https://github.com/saim-x/opencode-research-papers">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Ring a Bell Example</b> - <i>Simple terminal bell plugin</i></summary>
   <blockquote>
     A simple plugin to ring the terminal bell once a request is complete.
@@ -1224,6 +1233,15 @@ Also available for bat and Ghostty in the same repository.
     Run and monitor AI coding tasks from your phone while everything runs locally on your machine.
     <br><br>
     <a href="https://github.com/grinev/opencode-telegram-bot">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Vim</b> <img src="https://badgen.net/github/stars/leohenon/opencode-vim" height="14"/> - <i>OpenCode fork with built-in Vim mode</i></summary>
+  <blockquote>
+    An unofficial OpenCode fork that adds Vim motions, navigation, and editing directly to the OpenCode TUI.
+    <br><br>
+    <a href="https://github.com/leohenon/opencode-vim">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

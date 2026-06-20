@@ -638,6 +638,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-research-papers",
+    "type": "plugins",
+    "displayName": "Research Papers",
+    "repoUrl": "https://github.com/saim-x/opencode-research-papers",
+    "tagline": "Search arXiv and OpenAlex for research papers with recency and citation filtering",
+    "description": "OpenCode plugin that adds a research_papers tool for searching scholarly literature. Uses arXiv for fresh preprints and OpenAlex for broader metadata, citation counts, and open-access links. Supports filtering by latest, trending, or top-cited papers.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-roadmap",
     "type": "plugins",
     "displayName": "Opencode Roadmap",
@@ -1460,6 +1472,23 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "opencode-vim",
+    "type": "projects",
+    "displayName": "OpenCode Vim",
+    "repoUrl": "https://github.com/leohenon/opencode-vim",
+    "tagline": "OpenCode fork with built-in Vim mode",
+    "description": "An unofficial OpenCode fork that adds Vim motions, navigation, and editing directly to the OpenCode TUI.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "fork",
+      "vim",
+      "tui"
+    ],
+    "homepageUrl": "https://leohenon.github.io/opencode-vim/"
   },
   {
     "productId": "opencode-web",
