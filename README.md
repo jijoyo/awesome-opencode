@@ -242,6 +242,29 @@
 </details>
 
 <details>
+  <summary><b>FlowDeck</b> <img src="https://badgen.net/github/stars/DVNghiem/FlowDeck" height="14"/> - <i>AI-powered multi-agent workflow orchestration with built-in safety intelligence</i></summary>
+  <blockquote>
+    FlowDeck adds a structured, multi-agent development workflow to OpenCode. It coordinates 25 specialist agents through a four-phase cycle — discuss, plan, execute, review — with persistent state that survives session restarts.
+
+Key features:
+- 25 specialist agents (architect, planner, coder, reviewer, tester, debugger, risk-analyst, policy-enforcer, and more)
+- 24 reusable workflow skills (TDD, security scan, deploy check, code review, and more)
+- 17 workflow commands for all project operations
+- 15 pre-built orchestration flows including Spec-Driven Development (SDD)
+- Persistent state via `.planning/STATE.md` — resume exactly where you left off
+- Wave-based parallel execution for independent tasks
+- AI Safety layer: patch trust scoring, edit gates, phase gating, arch constraint enforcement, failure replay, and regression prediction
+- Deep System Hooks: context monitoring, session idle summaries, shell environment injection
+- Built-in MCPs: Context7 (docs), Exa (web search), Grep.app (code search)
+- Ensemble Reasoning via `/fd-council` for synthesized consensus from multiple agents
+- Persistent Memory with SQLite for tool executions and session summaries
+
+    <br><br>
+    <a href="https://github.com/DVNghiem/FlowDeck">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Froggy</b> <img src="https://badgen.net/github/stars/smartfrog/opencode-froggy" height="14"/> - <i>Hooks and specialized agents</i></summary>
   <blockquote>
     Plugin providing Claude Code-style hooks, specialized agents, and tools like gitingest.
@@ -1670,6 +1693,15 @@ Also available for bat and Ghostty in the same repository.
     Adds semantic memory (Qdrant tuned hybrid retrieval — RRF fusion of dense MiniLM + sparse BM25) and structural memory hooks to OpenCode via MCP. Ships an installer that wires `qdrant-find` / `qdrant-store` tools and a snapshot hook into your project's OpenCode config. Python 3.12+, MIT, on PyPI as `supamem`.
     <br><br>
     <a href="https://github.com/dzmitrys-dev/supamem/">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>SwarmClaw</b> <img src="https://badgen.net/github/stars/swarmclawai/swarmclaw" height="14"/> - <i>Self-hosted multi-agent runtime with first-class OpenCode delegation</i></summary>
+  <blockquote>
+    Self-hosted runtime for autonomous AI agents with heartbeats, schedules, delegation, memory, runtime skills, and reviewed conversation-to-skill learning. Orchestrates OpenCode alongside Claude Code, Codex, Gemini CLI, Copilot CLI, Cursor Agent, Goose, Qwen Code, Droid, and 20+ LLM providers. Ships as an Electron desktop app, CLI, and Docker image. MCP-native (server and client). MIT, TypeScript.
+    <br><br>
+    <a href="https://github.com/swarmclawai/swarmclaw">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

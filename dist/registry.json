@@ -297,6 +297,30 @@
     "tags": []
   },
   {
+    "productId": "flowdeck",
+    "type": "plugins",
+    "displayName": "FlowDeck",
+    "repoUrl": "https://github.com/DVNghiem/FlowDeck",
+    "tagline": "AI-powered multi-agent workflow orchestration with built-in safety intelligence",
+    "description": "FlowDeck adds a structured, multi-agent development workflow to OpenCode. It coordinates 25 specialist agents through a four-phase cycle — discuss, plan, execute, review — with persistent state that survives session restarts.\n\nKey features:\n- 25 specialist agents (architect, planner, coder, reviewer, tester, debugger, risk-analyst, policy-enforcer, and more)\n- 24 reusable workflow skills (TDD, security scan, deploy check, code review, and more)\n- 17 workflow commands for all project operations\n- 15 pre-built orchestration flows including Spec-Driven Development (SDD)\n- Persistent state via `.planning/STATE.md` — resume exactly where you left off\n- Wave-based parallel execution for independent tasks\n- AI Safety layer: patch trust scoring, edit gates, phase gating, arch constraint enforcement, failure replay, and regression prediction\n- Deep System Hooks: context monitoring, session idle summaries, shell environment injection\n- Built-in MCPs: Context7 (docs), Exa (web search), Grep.app (code search)\n- Ensemble Reasoning via `/fd-council` for synthesized consensus from multiple agents\n- Persistent Memory with SQLite for tool executions and session summaries\n",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "workflow",
+      "orchestration",
+      "multi-agent",
+      "planning",
+      "security",
+      "TDD",
+      "skills",
+      "commands"
+    ],
+    "homepageUrl": "https://github.com/DVNghiem/FlowDeck#readme",
+    "installation": "### Method 1: curl (recommended)\n```bash\ncurl -fsSL https://raw.githubusercontent.com/DVNghiem/flowdeck/main/install.sh | bash\n```\n\n### Method 2: npx\n```bash\nnpx @dv.nghiem/flowdeck install\n```\n\nCore workflow commands:\n- `/fd-new-project` — Bootstrap a new project with PROJECT.md, ROADMAP.md, STATE.md\n- `/fd-discuss` — Pre-planning structured Q&A to capture decisions\n- `/fd-plan` — Generate a wave-structured execution plan from decisions\n- `/fd-new-feature` — Implement a feature with TDD discipline and parallel agents\n- `/fd-checkpoint` — Save a session checkpoint to STATE.md\n- `/fd-resume` — Reload STATE.md and PLAN.md to continue interrupted session\n",
+    "minVersion": "1.0.0"
+  },
+  {
     "productId": "froggy",
     "type": "plugins",
     "displayName": "Froggy",
@@ -2066,6 +2090,18 @@
     "repoUrl": "https://github.com/dzmitrys-dev/supamem/",
     "tagline": "Project-agnostic dual-memory MCP CLI for OpenCode",
     "description": "Adds semantic memory (Qdrant tuned hybrid retrieval — RRF fusion of dense MiniLM + sparse BM25) and structural memory hooks to OpenCode via MCP. Ships an installer that wires `qdrant-find` / `qdrant-store` tools and a snapshot hook into your project's OpenCode config. Python 3.12+, MIT, on PyPI as `supamem`.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "swarmclaw",
+    "type": "projects",
+    "displayName": "SwarmClaw",
+    "repoUrl": "https://github.com/swarmclawai/swarmclaw",
+    "tagline": "Self-hosted multi-agent runtime with first-class OpenCode delegation",
+    "description": "Self-hosted runtime for autonomous AI agents with heartbeats, schedules, delegation, memory, runtime skills, and reviewed conversation-to-skill learning. Orchestrates OpenCode alongside Claude Code, Codex, Gemini CLI, Copilot CLI, Cursor Agent, Goose, Qwen Code, Droid, and 20+ LLM providers. Ships as an Electron desktop app, CLI, and Docker image. MCP-native (server and client). MIT, TypeScript.",
     "scope": [
       "global"
     ],
