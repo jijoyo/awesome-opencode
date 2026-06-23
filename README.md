@@ -872,6 +872,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>opencode-short-term-memory</b> <img src="https://badgen.net/github/stars/andrejtonev/opencode-short-term-memory" height="14"/> - <i>Maintain user instructions and preferences throughout long sessions. No more repeating yourself.</i></summary>
+  <blockquote>
+    Automatically summarizes conversation context into structured session memory and injects it back into the system prompt every few turns — preserving user instructions, project context, decisions, and active references across long chats and compactions.
+    <br><br>
+    <a href="https://github.com/andrejtonev/opencode-short-term-memory">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-snip</b> <img src="https://badgen.net/github/stars/VincentHardouin/opencode-snip" height="14"/> - <i>OpenCode plugin that prefixes shell commands with snip to reduce LLM token consumption by 60-90%</i></summary>
   <blockquote>
     Automatically prefixes supported shell commands (git, go, cargo, npm, docker, etc.) with snip to filter output before it reaches your LLM context window.
