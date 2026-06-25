@@ -1580,6 +1580,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>NextProb</b> <img src="https://badgen.net/github/stars/NextProb/nextprob" height="14"/> - <i>Desktop notebook for vibe-coded websites, edited by your local AI coding-agent CLI (OpenCode and others)</i></summary>
+  <blockquote>
+    Electron desktop app that turns a workspace folder of plain .html files into an AI-editable notebook. Agent-agnostic — edit notes with OpenCode or any other agent CLI in an embedded terminal. Notes are real HTML pages. Each note is a self-contained folder that can include a SQLite database, key/value store, attached files, and scripts — so it can grow from a static page into a sortable table, interactive dashboard, or research tool.
+    <br><br>
+    <a href="https://github.com/NextProb/nextprob">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OC Context (occtx)</b> <img src="https://badgen.net/github/stars/hungthai1401/occtx" height="14"/> - <i>Switch contexts quickly</i></summary>
   <blockquote>
     A command-line tool for switching between different opencode contexts quickly.
