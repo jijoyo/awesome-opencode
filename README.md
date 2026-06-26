@@ -1157,6 +1157,21 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>ul-opencode-event</b> - <i>Multi-channel notifications (SMTP, DingTalk, Feishu) and token usage analytics</i></summary>
+  <blockquote>
+    Get notified when OpenCode sessions complete, error, or need your attention - via SMTP email, DingTalk robot, or Feishu robot.
+- Multi-channel: SMTP, DingTalk, Feishu, local JSONL file
+- Multi-level token analytics: message / session / total / project scopes
+- 74+ template variables with i18n support (zh/en)
+- Global + project config merge, automatic DB preload for crash recovery
+- Built-in CLI test tool
+
+    <br><br>
+    <a href="https://gitee.com/ulthon/ul-opencode-event">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>UNMOJI</b> - <i>Strip emojis from output</i></summary>
   <blockquote>
     A simple plugin that strips ALL emojis from agent outputs in Opencode.
