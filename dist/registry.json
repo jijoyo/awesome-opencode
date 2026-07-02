@@ -409,6 +409,18 @@
     "minVersion": "1.0.0"
   },
   {
+    "productId": "forloop-planner",
+    "type": "plugins",
+    "displayName": "ForLoop Planner",
+    "repoUrl": "https://github.com/forloop-cc/forloop-opencode-plugin-planner",
+    "tagline": "Autopilot development. Plan with ForLoop agent. Build, Test, Deploy on cloud in one go.",
+    "description": "ForLoop offers an all-in-one platform that covers the entire development lifecycle, from initial planning and coding to automated testing and cloud deployment.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "froggy",
     "type": "plugins",
     "displayName": "Froggy",
@@ -1589,6 +1601,18 @@
     "tags": []
   },
   {
+    "productId": "semantic-anchors",
+    "type": "plugins",
+    "displayName": "Semantic Anchors",
+    "repoUrl": "https://github.com/JensGrote/opencode-semantic-anchors",
+    "tagline": "Runtime contract enforcement for safe, traceable AI agents",
+    "description": "Runtime steering plugin that enforces behavioral contracts via plugin hooks. Monitors chat messages and tool calls against configurable rules, supports BLOCK/WARN modes, built-in profiles (socratic, architecture), step confirmation intervals, override mechanism, dynamic role switching, and Zod-validated YAML configuration.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "shell-strategy",
     "type": "plugins",
     "displayName": "Shell Strategy",
@@ -2324,6 +2348,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-handoff-p2p",
+    "type": "projects",
+    "displayName": "opencode-handoff-p2p",
+    "repoUrl": "https://github.com/Eldorado-ling/opencode-handoff-p2p",
+    "tagline": "Transfer OpenCode session share URLs P2P via private GitHub inbox repos",
+    "description": "An OpenCode skill that transfers session share URLs between machines or collaborators peer-to-peer using personal GitHub private inbox repositories. Features a 5-tier verification pipeline (filename regex, trusted-sender allowlist, byte-level content validation, GitHub commit author+committer attribution, GPG signature), transactional fetch-before-delete (URL fetch failure preserves the inbox file for retry), and a Chinese-language trust-boundary preamble that prevents fetched share content from autonomously triggering local actions. Each user owns one private inbox repo; senders push directly into it via collaborator access. Includes a reference Python verification script for deterministic cross-shell behavior.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-history-search",
     "type": "projects",
     "displayName": "Opencode History Search",
@@ -2638,6 +2674,28 @@
     "tags": []
   },
   {
+    "productId": "vestige",
+    "type": "projects",
+    "displayName": "Vestige",
+    "repoUrl": "https://github.com/samvallad33/vestige",
+    "tagline": "Local persistent memory for OpenCode agents",
+    "description": "Adds local and project-scoped MCP memory to OpenCode, so agents can remember decisions, preferences, architecture context, and previous fixes across sessions.",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "mcp",
+      "memory",
+      "local-first",
+      "opencode",
+      "ai-agents"
+    ],
+    "homepageUrl": "https://github.com/samvallad33/vestige",
+    "installation": "npm install -g vestige-mcp-server@latest\nnpx @vestige/init\n",
+    "minVersion": "1.16.2"
+  },
+  {
     "productId": "vibe-kanban",
     "type": "projects",
     "displayName": "Vibe Kanban",
@@ -2726,6 +2784,22 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "runapi-mcp",
+    "type": "resources",
+    "displayName": "RunAPI MCP",
+    "repoUrl": "https://github.com/runapi-ai/mcp",
+    "tagline": "MCP server for model API jobs",
+    "description": "RunAPI MCP lets coding agents discover models, check pricing, and create image, video, music/audio, text-to-speech, and LLM tasks through RunAPI.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "mcp-server",
+      "model-api",
+      "media-generation"
+    ]
   },
   {
     "productId": "ayu-dark",

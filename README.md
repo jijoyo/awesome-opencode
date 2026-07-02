@@ -292,6 +292,15 @@ Key features:
 </details>
 
 <details>
+  <summary><b>ForLoop Planner</b> <img src="https://badgen.net/github/stars/forloop-cc/forloop-opencode-plugin-planner" height="14"/> - <i>Autopilot development. Plan with ForLoop agent. Build, Test, Deploy on cloud in one go.</i></summary>
+  <blockquote>
+    ForLoop offers an all-in-one platform that covers the entire development lifecycle, from initial planning and coding to automated testing and cloud deployment.
+    <br><br>
+    <a href="https://github.com/forloop-cc/forloop-opencode-plugin-planner">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Froggy</b> <img src="https://badgen.net/github/stars/smartfrog/opencode-froggy" height="14"/> - <i>Hooks and specialized agents</i></summary>
   <blockquote>
     Plugin providing Claude Code-style hooks, specialized agents, and tools like gitingest.
@@ -1072,6 +1081,15 @@ suggestions. All processing stays local by default — no data leaves the machin
     A simple plugin to ring the terminal bell once a request is complete.
     <br><br>
     <a href="https://gist.github.com/ahosker/267f375a65378bcb9a867fd9a195db1e">🔗 <b>View Gist</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Semantic Anchors</b> <img src="https://badgen.net/github/stars/JensGrote/opencode-semantic-anchors" height="14"/> - <i>Runtime contract enforcement for safe, traceable AI agents</i></summary>
+  <blockquote>
+    Runtime steering plugin that enforces behavioral contracts via plugin hooks. Monitors chat messages and tool calls against configurable rules, supports BLOCK/WARN modes, built-in profiles (socratic, architecture), step confirmation intervals, override mechanism, dynamic role switching, and Zod-validated YAML configuration.
+    <br><br>
+    <a href="https://github.com/JensGrote/opencode-semantic-anchors">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1922,6 +1940,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>opencode-handoff-p2p</b> <img src="https://badgen.net/github/stars/Eldorado-ling/opencode-handoff-p2p" height="14"/> - <i>Transfer OpenCode session share URLs P2P via private GitHub inbox repos</i></summary>
+  <blockquote>
+    An OpenCode skill that transfers session share URLs between machines or collaborators peer-to-peer using personal GitHub private inbox repositories. Features a 5-tier verification pipeline (filename regex, trusted-sender allowlist, byte-level content validation, GitHub commit author+committer attribution, GPG signature), transactional fetch-before-delete (URL fetch failure preserves the inbox file for retry), and a Chinese-language trust-boundary preamble that prevents fetched share content from autonomously triggering local actions. Each user owns one private inbox repo; senders push directly into it via collaborator access. Includes a reference Python verification script for deterministic cross-shell behavior.
+    <br><br>
+    <a href="https://github.com/Eldorado-ling/opencode-handoff-p2p">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-kanban</b> <img src="https://badgen.net/github/stars/qrafty-ai/opencode-kanban" height="14"/> - <i>Kanban-style task management for opencode</i></summary>
   <blockquote>
     Kanban tool that allows you to stay in terminal.
@@ -2030,6 +2057,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>Vestige</b> <img src="https://badgen.net/github/stars/samvallad33/vestige" height="14"/> - <i>Local persistent memory for OpenCode agents</i></summary>
+  <blockquote>
+    Adds local and project-scoped MCP memory to OpenCode, so agents can remember decisions, preferences, architecture context, and previous fixes across sessions.
+    <br><br>
+    <a href="https://github.com/samvallad33/vestige">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Vibe Kanban</b> <img src="https://badgen.net/github/stars/BloopAI/vibe-kanban" height="14"/> - <i>Manage AI in parallel</i></summary>
   <blockquote>
     A Kanban board to manage and orchestrate AI coding agents in parallel.
@@ -2101,6 +2137,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     A powerful custom opencode configuration with agents, commands, rules, skills, and pre-configured MCP server.
     <br><br>
     <a href="https://github.com/jjmartres/opencode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>RunAPI MCP</b> <img src="https://badgen.net/github/stars/runapi-ai/mcp" height="14"/> - <i>MCP server for model API jobs</i></summary>
+  <blockquote>
+    RunAPI MCP lets coding agents discover models, check pricing, and create image, video, music/audio, text-to-speech, and LLM tasks through RunAPI.
+    <br><br>
+    <a href="https://github.com/runapi-ai/mcp">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
