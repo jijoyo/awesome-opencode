@@ -2003,6 +2003,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>RedCode</b> <img src="https://badgen.net/github/stars/JiaHuiRed/RedCode" height="14"/> - <i>TUI + GUI dual-interface AI coding assistant with MCP ecosystem</i></summary>
+  <blockquote>
+    A feature-rich opencode fork with dual-interface (TUI terminal + GUI desktop), built-in MCP ecosystem (CodeGraph, TypeGraph, jCodeMunch, Browser, Vision, Web Search), automated memory system, AI personality system, skill extensions, and 3-tier permission guardrails. Privacy-first design with personal data fully separated from public templates.
+    <br><br>
+    <a href="https://github.com/JiaHuiRed/RedCode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>supamem</b> <img src="https://badgen.net/github/stars/dzmitrys-dev/supamem" height="14"/> - <i>Project-agnostic dual-memory MCP CLI for OpenCode</i></summary>
   <blockquote>
     Adds semantic memory (Qdrant tuned hybrid retrieval — RRF fusion of dense MiniLM + sparse BM25) and structural memory hooks to OpenCode via MCP. Ships an installer that wires `qdrant-find` / `qdrant-store` tools and a snapshot hook into your project's OpenCode config. Python 3.12+, MIT, on PyPI as `supamem`.
