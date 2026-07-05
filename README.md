@@ -251,6 +251,15 @@
 </details>
 
 <details>
+  <summary><b>opencode-lazy-load</b> <img src="https://badgen.net/github/stars/jijoyo/opencode-lazy-load" height="14"/> - <i>MCP token optimization - 88-90% savings</i></summary>
+  <blockquote>
+    Strips ALL MCP tool definitions from LLM requests. The LLM only sees load_tool as a callable tool. 3-layer defense: HTTP interception + SSE redirect + pointer list. 7 ALWAYS_VISIBLE core tools (bash, read, edit, write, task, glob, grep) work directly without loading.
+    <br><br>
+    <a href="https://github.com/jijoyo/opencode-lazy-load">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Ejentum</b> <img src="https://badgen.net/github/stars/ejentum/ejentum-mcp" height="14"/> - <i>MCP server with reasoning, code, anti-deception, and memory tools for AI agents</i></summary>
   <blockquote>
     MCP server with four tools (harness_reasoning, harness_code, harness_anti_deception, harness_memory) that AI agents can call on demand. Each tool returns a structured prompt the calling agent ingests before generating.
